@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route, UNSAFE_useFogOFWarDiscovery } from "react-router-dom";
 import Dashboard from "../components/Dashboard/Dashboard";
 import LoginPage from "../pages/Auth/LoginPage";

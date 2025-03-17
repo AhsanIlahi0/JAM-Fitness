@@ -1,7 +1,14 @@
 import React from "react";
 import "./App.css";
+import AppRoutes from "./routes/AppRoutes";
+import { ToastContainer } from "react-toastify";
 const App = () => {
-  return <h1 class="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <AppRoutes />
+      <ToastContainer />
+    </>
+  );
 };
 
 export default App;
