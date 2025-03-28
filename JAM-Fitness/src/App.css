@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Card Hover Effects */
+.MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.MuiButton-contained {
+  text-transform: none;
+  border-radius: 8px;
+}
+
+/* Form Styles */
+.MuiTextField-root {
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* List Item Styles */
+.MuiListItem-root {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.MuiListItem-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Chart Container */
+.chart-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Container */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
